@@ -11,6 +11,6 @@
 
 @layer components {
     .menuLink {
-        @apply cursor-pointer hover:text-[#c5c5];
+        @apply cursor-pointer hover:text-[#22C55E];
     }
 }

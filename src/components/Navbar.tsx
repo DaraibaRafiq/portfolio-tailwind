@@ -11,12 +11,13 @@ const Navbar = () => {
   return (
     <div className="container pt-8">
         <div className="flex justify-between items-center">
-            <div className="text-xl font-medium">Daraiba Rafiq</div>
-            <ul className="gap-10 lg:gap-16 hidden md:flex">
+            <div className="text-xl font-bold">Daraiba Rafiq</div>
+            <ul className="gap-10 lg:gap-16 hidden md:flex text-2xl">
                 <li className="menuLink"><a href="#hero">Home</a></li>
                 <li className="menuLink"><a href="#skills">Skills</a></li>
                 <li className="menuLink"><a href="#contact">Contact</a></li>
                 <li className="menuLink"><a href="#about">About</a></li>
+                <li className="menuLink"><a href="#about">Project</a></li>
                 
             </ul>
             <div className='md:hidden' onClick={toggleMenu}>
@@ -38,6 +39,9 @@ const Navbar = () => {
           </li>
           <li className='menuLink'>
             <a href="#contact" onClick={toggleMenu}>Contact</a>
+          </li>
+          <li className='menuLink'>
+            <a href="#contact" onClick={toggleMenu}>Projects</a>
           </li>
         </ul>
       )

@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-10">
             <div className="space-y-8">
                 <h2 className="text-5xl" data-aos="zoom-in-up">Get in touch</h2>
-                <p className="text-gray-600 text-[18px] pt-2" data-aos="zoom-in-up">
+                <p className="text-white text-[18px] pt-2" data-aos="zoom-in-up">
                     Drop me a line, give me a call, or send me a message by submitting a form.
                 </p>
                 <div className="flex gap-3 items-center" data-aos="zoom-in-up">
