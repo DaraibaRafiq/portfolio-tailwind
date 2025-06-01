@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Typewriter from 'typewriter-effect';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         {/* Circle image on the left */}
         <div className="flex justify-center items-center">
           <div 
-            className="bg-[url(/profile.jpg)] bg-cover bg-center rounded-full h-[300px] w-[300px]"
+            className="bg-[url(/proo.jpeg)] bg-cover bg-center rounded-full h-[300px] w-[300px]"
           />
         </div>
 
@@ -32,11 +33,13 @@ const Hero = () => {
                 deleteSpeed: 50,
               }}
             />
+        </div>
           </div>
         </div>
+         
       </div>
-    </div>
+    
   );
 }
 
-export default Hero;
+export default Hero;     

@@ -8,12 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      container : {
-        center : true,
-        padding : "15px"
+      container: {
+        center:true,
+        padding: "15px"
       },
       colors: {
-        accent: "#08E95E"
+        accent:"#08E95E"
       },
     },
   },

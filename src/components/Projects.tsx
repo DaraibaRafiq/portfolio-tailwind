@@ -7,13 +7,15 @@ const Projects = () => {
   return (
     <div data-aos="zoom-in-up">
       <div className="pt-32 p-4 min-h-screen flex flex-col items-center">
-        <h1 className="text-6xl text-white mb-6 font-bold">My Projects</h1>
+        
+        {/* Heading left aligned with margin */}
+        <h1 className="text-5xl text-white mb-6 self-start ml-4">My Projects</h1>
 
-        {/* ✅ Responsive 2x2 Grid */}
+        {/* ✅ Responsive 2x2 Grid with original gap and card size */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-screen-lg w-full" data-aos="zoom-in-up">
-          
+
           {/* Card 1 */}
-          <div className="bg-green-500 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
             <Link href="https://vercel.com/daraiba-rafiq-s-projects/hackathon2" target="_blank">
               <Image
                 src="/imageshop.jpeg"
@@ -27,7 +29,7 @@ const Projects = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-green-500 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
             <Link href="https://blog-app-rose-seven.vercel.app/" target="_blank">
               <Image
                 src="/blog-image.jpeg"
@@ -41,11 +43,11 @@ const Projects = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-green-500 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
             <Link href="https://e-commerce-uwvz.vercel.app/" target="_blank">
               <Image
                 src="/shop.png"
-                alt="Next.js Assignment"
+                alt="Figma Website"
                 width={400}
                 height={300}
                 className="rounded-md hover:opacity-90 transition-opacity duration-200 w-full"
@@ -55,11 +57,11 @@ const Projects = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-green-500 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
             <Link href="https://web-next-tailwind-3qzs.vercel.app/" target="_blank">
               <Image
                 src="/mini.jpeg"
-                alt="Website Navigation Bar"
+                alt="Mini Project"
                 width={400}
                 height={300}
                 className="rounded-md hover:opacity-90 transition-opacity duration-200 w-full"
