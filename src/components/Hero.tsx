@@ -3,7 +3,9 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Typewriter from 'typewriter-effect';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaDownload } from 'react-icons/fa';
+import Link from 'next/link';
+
 
 const Hero = () => {
   return (
@@ -19,11 +21,13 @@ const Hero = () => {
             className="bg-[url(/proo.jpeg)] bg-cover bg-center rounded-full h-[300px] w-[300px]"
           />
         </div>
+        
 
         {/* Text content on the right */}
         <div className="text-[40px] sm:text-[60px] lg:text-[80px] font-bold leading-tight flex justify-center items-center text-white">
           <div data-aos="zoom-in-up">
-            <p>I am</p>
+            <p>Hello I &apos;m</p>
+           <div className="text-violet-600">
             <Typewriter
               options={{
                 strings: ['Daraiba Rafiq', 'Full Stack Developer'],
@@ -33,10 +37,11 @@ const Hero = () => {
                 deleteSpeed: 50,
               }}
             />
+            </div>
         </div>
           </div>
         </div>
-         
+         <div className="mt-16 w-[98%] h-[2px] bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 rounded-full"></div>
       </div>
     
   );

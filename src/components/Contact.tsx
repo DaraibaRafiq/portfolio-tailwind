@@ -59,7 +59,7 @@ const Contact = () => {
               id="name"
               value={form.name}
               onChange={handleChange}
-              className="h-[40px] bg-transparent border border-accent"
+              className="h-[40px] bg-transparent border border-purple-600"
               required
             />
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
               id="email"
               value={form.email}
               onChange={handleChange}
-              className="h-[40px] bg-transparent border border-accent"
+              className="h-[40px] bg-transparent border border-purple-600"
               required
             />
           </div>
@@ -81,13 +81,13 @@ const Contact = () => {
               rows={8}
               value={form.message}
               onChange={handleChange}
-              className="bg-transparent border border-accent"
+              className="bg-transparent border border-purple-600"
               required
             />
           </div>
           <button
             type="submit"
-            className="bg-accent p-2 px-6"
+            className="bg-purple-600 p-2 px-6"
             data-aos="zoom-in-up"
           >
             Send

@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-screen-lg w-full" data-aos="zoom-in-up">
 
           {/* Card 1 */}
-          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-purple-500 rounded-lg shadow-md p-6 w-full">
             <Link href="https://vercel.com/daraiba-rafiq-s-projects/hackathon2" target="_blank">
               <Image
                 src="/imageshop.jpeg"
@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-purple-500 rounded-lg shadow-md p-6 w-full">
             <Link href="https://blog-app-rose-seven.vercel.app/" target="_blank">
               <Image
                 src="/blog-image.jpeg"
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-purple-500 rounded-lg shadow-md p-6 w-full">
             <Link href="https://e-commerce-uwvz.vercel.app/" target="_blank">
               <Image
                 src="/shop.png"
@@ -57,7 +57,7 @@ const Projects = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-gray-400 rounded-lg shadow-md p-6 w-full">
+          <div className="bg-purple-500 rounded-lg shadow-md p-6 w-full">
             <Link href="https://web-next-tailwind-3qzs.vercel.app/" target="_blank">
               <Image
                 src="/mini.jpeg"
@@ -72,6 +72,7 @@ const Projects = () => {
 
         </div>
       </div>
+       <div className="mt-16 w-[98%] h-[2px] bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 rounded-full"></div>
     </div>
   );
 };
