@@ -32,6 +32,7 @@ const Contact = () => {
         setStatus(data.error || 'Failed to send message');
       }
     } catch (err) {
+      console.error('Error sending message:', err);
       setStatus('Error sending message');
     }
   };

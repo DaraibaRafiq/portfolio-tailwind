@@ -3,8 +3,7 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Typewriter from 'typewriter-effect';
-import { FaDownload } from 'react-icons/fa';
-import Link from 'next/link';
+
 
 
 const Hero = () => {

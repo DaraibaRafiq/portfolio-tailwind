@@ -27,8 +27,16 @@ export async function POST(req: Request) {
              <p><strong>Message:</strong><br/>${message}</p>`,
     })
     return NextResponse.json({ success: true }, { status: 200 })
-  } catch (error: any) {
-    console.error('Mail error:', error)
+  } catch (error: unknown) {
+  console.error('Mail error:', error)
+
+  // Type guard: check if error is actually an Error object
+  if (error instanceof Error) {
     return NextResponse.json({ error: error.message }, { status: 500 })
   }
+
+  // Fallback in case error is not an instance of Error
+  return NextResponse.json({ error: 'Unknown error occurred' }, { status: 500 })
 }
+
+  }

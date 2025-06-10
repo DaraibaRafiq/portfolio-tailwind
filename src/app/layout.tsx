@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { BsWhatsapp } from "react-icons/bs";
 import Image from "next/image";
 import Link from "next/link";
 
