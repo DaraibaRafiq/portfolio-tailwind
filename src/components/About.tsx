@@ -10,7 +10,7 @@ const About = () => {
       </p>
       <div className="flex items-start gap-4 pt-8 mt-9">
          {/* Generate Button */}
-        <Link href={"https://drive.google.com/file/d/1oYL06FaEsQMTSJYqJVVFeabDM3d9Qrnl/view?usp=drive_link"} target="_blank">
+        <Link href={"https://drive.google.com/file/d/1WRaKn-npMKcVeD9RsGBrujn-swZn4JmI/view?usp=drive_link"} target="_blank">
          <button className="btn  w-[120px] h-[40px] lg:w-[150px] lg:h-[50px] flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 text-white font-semibold hover:bg-violet-700 transition duration-300 ease-in-out">
          <FaDownload className="hidden lg:block"/>
           
